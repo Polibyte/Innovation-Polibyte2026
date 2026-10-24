@@ -1,1 +1,124 @@
+# ==========================================
+# Archivos de Entorno y Claves Privadas
+# ==========================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.cert
+*.p12
 
+# ==========================================
+# Modelos de IA y Pesos Pesados (ML / DL)
+# ==========================================
+# Nota: Si el modelo pesa más de 50MB, se debe 
+# documentar su descarga en el README.md en lugar de subirlo.
+*.pt
+*.pth
+*.bin
+*.onnx
+*.safetensors
+*.h5
+*.hdf5
+*.ckpt
+*.gguf
+*.tflite
+*.pb
+
+# Datasets pesados
+*.csv
+*.parquet
+*.feather
+*.sqlite3
+*.db
+
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Entornos Virtuales
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Node.js / JavaScript / Frontend
+# ==========================================
+node_modules/
+jspm_packages/
+.npm
+.eslintcache
+.stylelintcache
+.node_repl_history
+*.tgz
+.yarn-integrity
+.next/
+.nuxt/
+out/
+
+# ==========================================
+# Flutter / Dart / Móvil
+# ==========================================
+.dart_tool/
+.fvm/
+.idea/
+.pub-cache/
+.pub/
+build/
+*.apk
+*.aab
+*.ipa
+
+# ==========================================
+# Archivos del Sistema Operativo y Editores
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+
+# ==========================================
+# Archivos de Logs
+# ==========================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
